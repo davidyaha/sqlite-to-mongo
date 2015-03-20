@@ -1,0 +1,28 @@
+{
+  "name": "SqliteToMongo",
+  "version": "0.0.1",
+  "description": "This is a utility package for mapping a sqlite db into a local/remote mongodb",
+  "main": "SqliteToMongo.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mongo",
+    "sqlite",
+    "import",
+    "remote",
+    "local"
+  ],
+  "author": "David Yahalomi",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "mongodb": "^1.4.34",
+    "sqlite3": "^3.0.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://url.com"
+  }
+}
