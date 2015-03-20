@@ -1,5 +1,5 @@
 {
-  "name": "SqliteToMongo",
+  "name": "sqlite-to-mongo",
   "version": "0.0.1",
   "description": "This is a utility package for mapping a sqlite db into a local/remote mongodb",
   "main": "SqliteToMongo.js",
