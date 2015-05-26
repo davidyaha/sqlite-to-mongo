@@ -1,8 +1,8 @@
 {
   "name": "sqlite-to-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a utility package for mapping a sqlite db into a local/remote mongodb",
-  "main": "SqliteToMongo.js",
+  "main": "lib/SqliteToMongo.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -20,9 +20,12 @@
     "mongodb": "^1.4.34",
     "sqlite3": "^3.0.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1"
+  },
   "repository": {
     "type": "git",
-    "url": "http://url.com"
+    "url": "https://github.com/davidyaha/sqlite-to-mongo.git"
   }
 }
