@@ -69,3 +69,27 @@ importer.importCollection('books', {
   }
 });
 ```
+
+## Custom Callback
+```
+importer.importCollection('users', {
+  tableName : "USERS_TABLE",
+    columns: {
+      ID: '_id',
+      USERNAME: 'username',
+      EMAIL : 'profile.email'
+    }
+  },
+  /**
+   * Called after operation has finished. 
+   *
+   * @param err   Can be empty.
+   * @param num   Number of total operations.
+   */
+  function (err, num) {
+    if (err) throw new Error(err);
+    
+    console.log('Number of operations:', num);
+  }
+);
+```
