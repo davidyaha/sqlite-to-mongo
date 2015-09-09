@@ -1,6 +1,6 @@
 {
   "name": "sqlite-to-mongo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This is a utility package for mapping a sqlite db into a local/remote mongodb",
   "main": "lib/SqliteToMongo.js",
   "scripts": {
